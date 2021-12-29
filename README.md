@@ -14,7 +14,7 @@ You will need MAMP (if you use macOS) or OpenServer (if you use Windows) and npm
 
 If you have a local server (MAMP or OpenServer), you now just need to copy the repository to your computer and upload the files to your server folder named "htdocs" and after that you need to start your local server.
 
-When you start your local server you need to go through it to phpmyadmin and download our database (bitnami_wordpress_wp_20211229_807.sql.gz) and that's it 
+When you start your local server you need to go through it to phpmyadmin and download our database ([bitnami_wordpress_wp_20211229_807.sql.gz](https://github.com/Admin-Revenue/wordpress-start-kit/blob/main/RGF/bitnami_wordpress_wp_20211229_807.sql.gz)) and that's it 
 
 /*OR*/
 
