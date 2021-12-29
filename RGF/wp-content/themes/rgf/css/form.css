@@ -1,0 +1,65 @@
+.nf-form-title>h3 {
+        max-width: 80%;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 48px;
+        line-height: 58px;
+        text-transform: capitalize;
+
+        color: #051C2C;
+        margin-bottom: 50px;
+    }
+
+    .nf-form-fields-required {
+        display: none;
+    }
+
+    label {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+
+        text-transform: capitalize;
+
+        color: #051C2C;
+    }
+
+    input {
+        border-bottom: 2px solid #051C2C;
+    }
+
+    .nf-form-content .list-select-wrap .nf-field-element>div:focus,
+    .nf-form-content input:not([type=button]):focus,
+    .nf-form-content textarea:focus {
+        background: transparent !important;
+    }
+
+    .nf-form-content .list-select-wrap .nf-field-element>div,
+    .nf-form-content input:not([type=button]),
+    .nf-form-content textarea {
+        border: none !important;
+        background: transparent !important;
+        border-bottom: 2px solid #7D8991 !important;
+        color: #051C2C !important;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .contact-bottom {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nf-form-content button,
+    .nf-form-content input[type=button],
+    .nf-form-content input[type=submit] {
+        background: transparent !important;
+        border: 1px solid #051C2C !important;
+        box-sizing: border-box !important;
+        width: 250px !important;
+        font-size: 18px;
+        color: #051C2C !important;
+        cursor: pointer !important;
+    }

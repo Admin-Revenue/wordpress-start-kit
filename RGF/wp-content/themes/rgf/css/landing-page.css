@@ -1,0 +1,247 @@
+dfn, cite, em, i {
+	font-family: 'Open Sans', sans-serif;
+}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+	padding: 0;
+}
+.single .site-content h1, .single .site-content h2, .single .site-content h3, .single .site-content h4, .single .site-content h5, .single .site-content h6 {
+	color: #111;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0;
+    letter-spacing: initial;
+    text-transform: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+    line-height: 1.4;
+    margin: 0 0 1.25em;
+    padding: 1.5em 0 0;
+}
+
+h1 {
+	font-size: 36px;
+    font-weight: 700;
+	 color: #111;
+}
+h2 {
+	font-size: 28px;
+    font-weight: 700;
+    color: #111;
+}
+h3 {
+	font-size: 22px;
+    font-weight: 700;
+    color: #111;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+}
+
+.entry-content ol, .entry-content ul {
+	margin-left: 40px;
+	margin-top: 24px;
+}
+
+.entry-content ol li, .entry-content ul li {
+	list-style-type: decimal;
+    padding-bottom: 14px;
+    line-height: 24px;
+}
+
+.entry-content ul li, .entry-content ul li {
+    list-style-type: disc;
+    padding-bottom: 16px;
+	line-height: 24px;
+}
+
+.entry-content ol ol, .entry-content ol ol,
+.entry-content ul ul, .entry-content ul ul {
+    margin-bottom: 0;
+}
+
+.entry-content ul > li > ul, .entry-content ul > li > ul,
+.entry-content ol > li > ol, .entry-content ol > li > ol {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.entry-content ul>li>ul>li, .entry-content ul>li>ul>li {
+    position: relative;
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
+.entry-content ul>li>ul>li:before, .entry-content ul>li>ul>li:before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: -24px;
+    width: 10px;
+    height: 2px;
+    background-color: #000;
+}
+
+.entry-content ol>li>ol>li, .entry-content ol>li>ol>li {
+    position: relative;
+    list-style-type: lower-alpha;
+    padding-bottom: 0;
+    margin-left: -5px;
+    margin-top: 8px;
+}
+
+
+.entry-content ul>li>ul>li>ul, .entry-content ul>li>ul>li>ul, 
+.entry-content ol>li>ol>li>ol, .entry-content ol>li>ol>li>ol {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+.entry-content ul>li>ul>li>ul>li:before, .entry-content ul>li>ul>li>ul>li:before,
+.entry-content ol>li>ol>li>ol>li:before, .entry-content ol>li>ol>li>ol>li:before {
+    background-color: initial;
+}
+
+.entry-content ul>li>ul>li>ul>li, .entry-content ul>li>ul>li>ul>li {
+    list-style-type: circle;
+    padding-bottom: 6px;
+    line-height: 1.1;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.entry-content ol>li>ol>li>ol>li, .entry-content ol>li>ol>li>ol>li {
+    list-style-type: lower-roman;
+    padding-bottom: 6px;
+    line-height: 1.1;
+    font-size: 17px;    
+}
+
+
+.wrap>article {
+    max-width: 100%;
+}
+
+.entry-header {
+    display: none;
+}
+
+.teamplate-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 30px 200px;
+}
+
+.teamplate-content-left {
+    max-width: 45%;
+    min-width: 45%;
+}
+
+	.teamplate-content-right>img {
+		width: 100%;
+	}
+.top_section {
+    position: relative;
+    color: #fff;
+    padding-top: 200px;
+    height: 415px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(http://www.revenuegrowthfund.com/wp-content/uploads/2021/09/teamplate-bg.jpg) center top/cover no-repeat;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.top_section>span {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: normal;
+    min-width: 500px;
+    padding: 25px 40px;
+    border-bottom: 2px solid #cbcbcb;
+}
+
+.top_section>span:after {
+    content: '';
+    height: 2px;
+    width: 500px;
+    background-color: #fff;
+}
+.entry-content>* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.entry-content p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #2E2E2E;
+}
+
+.teamplate-content-left-img,
+.teamplate-content-right {
+    max-width: 45%;
+	min-width: 45%;
+}
+
+.teamplate-content-right {
+	max-width: 40%;
+	min-width: 40%;
+}
+
+.teamplate-content-left-img>img,
+.teamplate-content-right>img {
+	width: -webkit-fill-available;	
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    .footer__text,
+    .footer__menu {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .teamplate-content-right,
+    .teamplate-content-left-img {
+        display: none;
+    }
+
+    .teamplate-content-left {
+        max-width: 100%;
+    }
+
+    .top_section {
+        padding-top: 246px;
+        height: 546px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .top_section {
+		padding-top: 146px;
+		height: 346px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .top_section>span {
+        padding: 30px 30px;
+    }
+
+    .footer__menu-items-title:before {
+        left: 22%;
+    }
+	.teamplate-content {
+		padding-top: 75px;
+		padding-bottom: 150px;
+	}
+}
